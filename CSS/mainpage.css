@@ -1,0 +1,58 @@
+.head{
+    position: absolute;
+    top    : 0%;
+    left   : 0%;
+    height : 25%;
+    width  : 100%;
+}
+
+.mid{
+    position:absolute;
+    top:    25%;
+    left:   15%;
+    height: 70%;
+    width:  70%;
+}
+.div1{
+    position:absolute;
+    background-color: orange;
+    top: 0%;
+    left:0%;
+    height: 50%;
+    width:  50%;
+}
+.div2{
+    position:absolute;
+    background-color: blue;
+    top:    50%;
+    left:   0%;
+    height: 50%;
+    width:  50%;
+}
+.div3{
+    position:absolute;
+    background-color: red;
+    top:0%;
+    left: 50%;
+    width:50%;
+    height: 50%;
+}
+.div4{   
+    position:absolute;   
+    top: 50%;
+    left: 50%;
+    width:50%;
+    height: 50%;
+    background-color: green;
+}
+.center{
+    position:absolute;   
+    top: 40%;
+    width:20%;
+    height: 20%;
+    left: 40%;
+}
+.inner-outline {
+    outline: 10px ridge burlywood;
+    outline-offset: -10px;
+}
