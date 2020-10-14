@@ -7,7 +7,7 @@ $email = $_POST["email"];
 $businessType=$_POST["businessType"];
 $anyMessage=$_POST["anyMessage"];
 
-$conn = new mysqli('localhost', 'root', '','blehforms');
+$conn = new mysqli('localhost', 'root', '','pjadevs');
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }else{
